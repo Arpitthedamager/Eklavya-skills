@@ -1,0 +1,20 @@
+2024-04-07 19:02:13,024 [main.py:57 -                 init() ] INFO: Starting with args: {'continuing_project': False, '--external-log-process-port': '8125', '--api-key': '*****', '--api-endpoint': 'https://api.trybricks.ai/api/providers/openai/v1/chat/completions', 'email': 'sg79720@gmail.com', 'extension_version': '0.1.13', 'user_id': 'fc6b1309-33e6-1f48-c61c-958380d21c2c', 'workspace': None, 'app_id': '2aee3163-8002-48de-b71c-0384bbf31e43', 'password': '*****', 'step': None}
+2024-04-07 19:02:13,034 [llm_connection.py:416 - stream_gpt_completion() ] INFO: > Request model: gpt-4-turbo-preview
+2024-04-07 19:02:14,205 [llm_connection.py:279 -              wrapper() ] ERROR: There was a problem with request to openai API: Trial Expired
+
+(using key ending in ...dd97):
+(using endpoint: https://api.trybricks.ai/api/providers/openai/v1/chat/completions):
+
+Error details: {"error":{"code":"401","message":"[BricksLLM] key sk-bk********************************************** has been revoked","type":""}}
+2024-04-07 19:02:20,993 [llm_connection.py:157 - create_gpt_chat_completion() ] ERROR: The request to OPENAI API for openai/gpt-4-turbo-preview failed: Trial Expired
+
+(using key ending in ...dd97):
+(using endpoint: https://api.trybricks.ai/api/providers/openai/v1/chat/completions):
+
+Error details: {"error":{"code":"401","message":"[BricksLLM] key sk-bk********************************************** has been revoked","type":""}}
+2024-04-07 19:02:20,997 [llm_connection.py:89 -      test_api_access() ] ERROR: The request to OPENAI model gpt-4-turbo-preview API failed: Trial Expired
+
+(using key ending in ...dd97):
+(using endpoint: https://api.trybricks.ai/api/providers/openai/v1/chat/completions):
+
+Error details: {"error":{"code":"401","message":"[BricksLLM] key sk-bk********************************************** has been revoked","type":""}}
